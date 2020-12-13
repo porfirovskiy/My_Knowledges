@@ -1,0 +1,31 @@
+Install:
+1. sudo apt update
+2. sudo apt install redis-server
+
+==========================
+
+Config file:
+sudo nano /etc/redis/redis.conf
+
+
+Instal php extension for Redis:
+sudo apt-get install php-redis
+
+And install composer packadge:
+https://packagist.org/packages/predis/predis
+https://github.com/predis/predis
+
+Use client in code:
+new \Predis\Client();
+
+=====================
+
+All steps on this page
+https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-ubuntu-18-04-ru
+
+================
+
+get strong password
+openssl rand 60 | openssl base64 -A
+
+p/O5d+5Xway6BW8+zAjh7fXicp7xT3cWnjkOdJTEM9l8zUoihLm7LHK9X7cwRQ1zfEKHmBvtqF4pky6E

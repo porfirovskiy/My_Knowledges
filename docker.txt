@@ -1,0 +1,105 @@
+Simple installing Docker on Ubuntu 18.04:
+
+1. update Software Repositories 
+	sudo apt-get update
+2. uninstall Old Versions of Docker
+	sudo apt-get remove docker docker-engine docker.io
+3. install Docker on Ubuntu 18.04
+	sudo apt install docker.io
+4. start and Automate Docker
+	sudo systemctl start docker
+	sudo systemctl enable docker 
+
+
+
+2 ways of installing Docker on Ubuntu 18.04:
+
+How to Install Docker On Ubuntu 18.04
+https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04
+
+Как установить и использовать Docker в Ubuntu 18.04
+https://www.digitalocean.com/community/tutorials/docker-ubuntu-18-04-1-ru
+
+============================================================================================
+
+How to use Docker:
+
+1. docker run -it nginx bash
+При первом вызове данная команда начнет скачивать образ (image) nginx, поэтому придется немного подождать. После того, как образ скачается, запустится bash, и вы окажетесь внутри контейнера (container).
+Вернуться в родные скрепы можно командой exit.
+
+2. docker run nginx cat /etc/nginx/nginx.conf
+Команда выполняется практически мгновенно, так как образ уже загружен.
+
+
+
+https://guides.hexlet.io/docker/#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0
+
+
+Registry of images:
+https://hub.docker.com/
+
+Life circle of Docker container:
+https://guides.hexlet.io/images/docker/docker-container-lifecycle.png
+
+[[[ Commands list ]]]:
+
+- docker images(Список образов, уже скачанных на компьютер)
+- docker run(sudo docker run -it nginx bash, docker run -p 8080:80 nginx)
+- docker pull
+- docker rmi Ruby:2.4(delete image ruby)
+- docker run -d -p 8080:80 nginx(Запустим nginx так, чтобы он работал в фоне)
+- docker logs 431a3b3fc24bf8440efe2bca5bbb837944d5ae5c3b23b9b33a5575cb3566444e
+- docker ps(выведем информацию о запущенных контейнерах)
+- docker stats(выводит информацию о том, сколько ресурсов потребляют запущенные контейнеры)
+- docker kill 166b731364f8(остановить контейнер)
+- sudo docker build -t porfirovskiy/testdockerimage .
+
+====================================================
+
+Create Docker image:
+1. Create folder with for your image
+2. cd folder
+3. create DockerFile
+4. sudo docker build -t porfirovskiy/phpfpm7 .
+5. sudo docker push porfirovskiy/phpfpm7
+
+====================================================
+
+Docker Compose:
+1. create docker-compose.yml
+2. sudo docker-compose up -d
+3. sudo docker-compose stop
+
+Разработка под Docker. Локальное окружение. Часть 1
+https://habr.com/ru/post/459972/
+
+Разработка под Docker. Локальное окружение. Часть 2 — Nginx+PHP+MySql+phpMyAdmin
+https://habr.com/ru/post/460173/
+
+
+Сетевые контейнеры
+https://dker.ru/docs/docker-engine/learn-by-example/network-containers/
+
+Docker Compose основы для начинающих
+https://habr.com/ru/company/ruvds/blog/450312/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

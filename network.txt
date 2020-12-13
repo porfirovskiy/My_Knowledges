@@ -1,0 +1,19 @@
+Gigabit crossover cabel connection
+http://compolife.ru/videouroki/kak-obzhat-vituyu-paru.html
+
+
+
+Raspberry Pi DS18B20 Temperature Sensor Tutorial
+https://www.youtube.com/watch?v=aEnS0-Jy2vE
+
+
+Тюнинг активной системы охлаждения - Raspberry Pi 3: GPIO (#3)
+https://www.youtube.com/watch?v=fRneY6nnjT4
+
+Raspberry Pi + Arduino
+
+
+интерфейс rs 485 и микроконтроллеры
+https://www.youtube.com/watch?v=nvaNgD_K9dE
+
+

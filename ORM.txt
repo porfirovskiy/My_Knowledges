@@ -1,0 +1,4 @@
+DAO vs Active Record vs Data Mapper паттерны при работе с базой данных
+https://jeka.by/post/1094/dao-vs-active-record-vs-data-mapper/
+
+
