@@ -1,0 +1,10 @@
+Оценка сложности алгоритмов, или Что такое О(log n)
+https://tproger.ru/articles/computational-complexity-explained/
+
+
+Алгоритмы и структуры данных для начинающих: сложность алгоритмов
+https://tproger.ru/translations/algorithms-and-data-structures/
+
+
+
+

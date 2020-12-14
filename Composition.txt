@@ -1,0 +1,8 @@
+Композиция и наследование ООП в PHP
+https://maxsite.org/page/php-composition
+
+
+Просто про наследование, композицию и агрегацию в PHP
+https://www.it-rem.ru/prosto-pro-nasledovanie-kompozicziyu-i-agregacziyu-v-php.html
+
+
