@@ -6,3 +6,14 @@ https://explainextended.com/2009/10/23/mysql-order-by-limit-performance-late-row
 
 
 
+Isolation Levels for Translations:
+Уровни изолированности транзакций для самых маленьких
+https://habr.com/ru/post/469415/
+
+
+
+
+
+
+
+
