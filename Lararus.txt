@@ -1,0 +1,11 @@
+Настоящая кроссплатформенная разработка с Lazarus/ObjectPascal/Delphi. Программирование (аниме)
+https://www.youtube.com/watch?v=pot-L7vWpUo
+
+
+Lazarus + Graphics:
+Andorra 2D
+http://andorra.sourceforge.net/index8dec.html?bb=tutot1rus
+
+https://wiki.freepascal.org/Graphics_libraries
+
+
