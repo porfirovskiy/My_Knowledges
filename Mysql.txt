@@ -5,6 +5,9 @@ MySQL ORDER BY / LIMIT performance: late row lookups
 https://explainextended.com/2009/10/23/mysql-order-by-limit-performance-late-row-lookups/
 
 
+Мастер-класс "Работа с индексами: лучшие практики MySQL" (П. Зайцев)
+https://www.youtube.com/watch?v=39e1vAGD3hg
+
 
 Isolation Levels for Translations:
 Уровни изолированности транзакций для самых маленьких
