@@ -21,4 +21,5 @@ https://wiki.freepascal.org/Graphics_libraries
 
 Получается нужно создать 2 части проги: графическую и хранилище.
 
-
+OpenGL / FPC
+http://www.freepascal.ru/article/book/opengl/
