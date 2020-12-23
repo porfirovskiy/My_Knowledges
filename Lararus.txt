@@ -23,3 +23,16 @@ https://wiki.freepascal.org/Graphics_libraries
 
 OpenGL / FPC
 http://www.freepascal.ru/article/book/opengl/
+
+======================
+
+Можно использовать Canvas!!!
+
+Перемещение нарисованного объекта
+https://programmersforum.ru/showthread.php?t=282623
+
+Контейнер визуальных объектов
+http://www.delphikingdom.com/asp/viewitem.asp?catalogid=1344
+
+
+
