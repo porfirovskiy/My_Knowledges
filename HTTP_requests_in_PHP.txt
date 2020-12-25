@@ -5,6 +5,13 @@ https://www.php.net/manual/ru/features.file-upload.put-method.php
 HTTP protocol's PUT and DELETE and their usage in PHP
 https://stackoverflow.com/questions/27941207/http-protocols-put-and-delete-and-their-usage-in-php
 
+Как и для чего используется php://input?
+https://qna.habr.com/q/711275
+
+Php://input
+https://ru.stackoverflow.com/questions/262372/php-input
+
+
 
 
 
