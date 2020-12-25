@@ -1,0 +1,9 @@
+RabbitMQ — установка и простейший пример на PHP
+http://mindhalls.ru/rabbitmq-install-and-sample/
+
+
+RabbitMQ установка и использование (Debian, Web, Php)
+https://tech-research.ru/rabbitmq-php/
+
+
+
