@@ -1,5 +1,6 @@
 0. xdebug
 1. To build DI container and generation classmap
-2. Symfony DI 
+2. Symfony DI сервисы
 3. Code Coverage
 4. normalizer
+5. Репозиторий Для работы с базой либо с yaml-конфигам
