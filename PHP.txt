@@ -14,6 +14,9 @@ fpm/pool.d/www.conf - хранятся настройки для пулов до
 Правильный путь. Кэширование байткода
 http://getjump.github.io/ru-php-the-right-way/
 
+ПИШЕМ РАСШИРЕНИЕ ДЛЯ PHP
+https://xn--90acbu5aj5f.xn--p1ai/?p=4105
+
 Пишем расширения для PHP 7 на C++
 https://habr.com/ru/post/335478/
 
