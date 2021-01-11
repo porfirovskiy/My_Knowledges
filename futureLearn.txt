@@ -4,3 +4,5 @@
 3. Code Coverage
 4. normalizer
 5. Репозиторий Для работы с базой либо с yaml-конфигам
+6. Map(https://www.php.net/manual/ru/class.ds-map.php)
+7. Collection(https://www.php.net/manual/ru/class.ds-collection.php)
