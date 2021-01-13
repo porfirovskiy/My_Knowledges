@@ -6,3 +6,4 @@
 5. Репозиторий Для работы с базой либо с yaml-конфигам
 6. Map(https://www.php.net/manual/ru/class.ds-map.php)
 7. Collection(https://www.php.net/manual/ru/class.ds-collection.php)
+8. Нужно изучать глубины php чтобы лучше понимать тонкости работы и понимать нюансы, а также быть более производительным.
