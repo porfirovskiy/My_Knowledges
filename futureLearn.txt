@@ -10,3 +10,4 @@
 9. Гидратор данных.
 10. \Closure $callback
 11. Анонимные функции
+12. Pattern Registry.
