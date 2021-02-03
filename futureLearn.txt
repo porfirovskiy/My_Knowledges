@@ -13,3 +13,4 @@
 12. Pattern Registry.
 13. Symfony DI (Dependency Injection)
 Система для автоматической сборки объектов с рекурсивным учётом всех зависимостей. 
+14. Psr3Logger(PSR-4)
