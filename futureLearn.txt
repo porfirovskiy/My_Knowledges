@@ -11,3 +11,5 @@
 10. \Closure $callback
 11. Анонимные функции
 12. Pattern Registry.
+13. Symfony DI (Dependency Injection)
+Система для автоматической сборки объектов с рекурсивным учётом всех зависимостей. 
