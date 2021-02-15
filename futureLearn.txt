@@ -15,5 +15,6 @@
 Система для автоматической сборки объектов с рекурсивным учётом всех зависимостей. 
 14. Psr3Logger(PSR-4)
 15. spl_autoload_register
+16. CompilerPass
 
 nano, vim
