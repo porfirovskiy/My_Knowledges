@@ -16,5 +16,9 @@
 14. Psr3Logger(PSR-4)
 15. spl_autoload_register
 16. CompilerPass
+17. шаблон Mediator
+18
+
+Фреймворк Симфони, там все есть, что нужно знать разработчику.
 
 nano, vim
