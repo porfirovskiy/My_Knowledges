@@ -1,4 +1,4 @@
-0. xdebug
+0. xdebug, XHProf profiling
 1. To build DI container and generation classmap
 2. Symfony DI сервисы
 3. Code Coverage
