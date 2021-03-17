@@ -82,4 +82,43 @@ composer dump-autoload -o
  	3. выполнить команду dump-autoload -o 
 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
+Grep
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+Обратные условие для grep:
+	grep -v '^b2b'
+	
+==========================
 
+Count of files in current dir with subdir:
+	find . | wc
+	
+===================
+
+Как найти все файлы, содержащие искомый текст на linux:
+	grep -rnw '/home/phoenix/htdocs/protected/modules/b2b' -e "namespace"
+
+==============
+
+Вывести только второй столбец лога:
+	grep -rn '/home/phoenix/htdocs/protected/modules/b2b' -e "^namespace" | uniq | awk '{ print $2 }'
+
+===========================
+
+With other DELIMITER:
+	grep -r '/home/phoenix/htdocs/protected/modules/b2b' -e "^namespace" | uniq | awk -F ":" '{ print $1 }' | less
+	
+
+==========================
+Big regex example with OR condition:
+	grep -r '/home/phoenix/htdocs/protected/modules/b2b' -e "^class\|trait\|interface\|abstract class .*$" | awk '{ print $1 }' | awk -F ":" '{ print $1 }' | uniq | less
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+SQL
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+	find table by name in all databases
+
+SELECT table_name,
+       table_schema AS dbname
+  FROM INFORMATION_SCHEMA.TABLES
+  WHERE table_name='remarketingPopup';
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]
