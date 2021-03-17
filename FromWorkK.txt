@@ -1,0 +1,67 @@
+GIT
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[
+Oтменить коммиты:
+	git log выбираешь коммит который интересует
+	git reset --hard commithash
+	git push -f origin branch
+	
+=============================
+
+[[[ Как перенести изменения с одной ветки в другую ]]]
+
+1. Переходим в старую ветку
+2. Обновляем ее
+3. Вмердживаем лив в нее
+4. Получаем дифф:
+	git diff origin/live..branch > file.diff
+	Пример:
+		git diff origin/live dev-20210115-pilipenko-payment-BU-62927_Unit_Test > file.diff
+5. Проверяем что все изменения наши
+6. Переходим на новую ветку
+7. Применяем дифф изменения из файла:
+	git apply file.diff
+8. Коммитим эти изменения
+9. Делаем пушш ветки
+10. Возможно нужно удалить старую ветку глобально
+=======================================
+	Локально переименовать ветку
+			
+	git branch -m
+	
+	Delete the old-name remote branch and push the new-name local branch:
+		git push origin :old-name new-name
+	
+	git push origin :dev-20210202-pilipenko-payment-BU-63724-Fix_namespaces_in_widgets_validators_B2bModule dev-20210202-pilipenko-payment-BU-999999-Fix_namespaces_in_widgets_validators_B2bModule
+			
+=====================================
+	For full path names and status of changed files:
+
+	git log --name-status
+
+====================================
+
+	удалить удалённую ветку
+
+	git push origin --delete <branchName>
+
+==================================
+
+	Изменить сообщение коммита к не последнему коммиту
+
+	git rebase -i HEAD~4
+	
+	git push --force origin dev-20210210-pilipenko
+	
+	http://paratapok.ru/developer-tools/3578_kak-v-git-izmenit-kommentarij-k-kommitu/
+	https://beget.com/ru/kb/how-to/other/osnovy-raboty-s-redaktorom-vim#ispolzovanie-redaktora-vim
+	https://neoserver.ru/help/osnovnie-komandi-redaktora-vi-vim
+	
+=================================
+
+Создать тестувую ветку для рела(логи смотреть)
+
+	git checkout -b test1-case origin/rel
+	git fetch && git merge origin/rel
+	
+================================
+]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
