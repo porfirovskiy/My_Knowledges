@@ -19,6 +19,9 @@
 17. Шаблон Mediator
 18. Symfony EventDispatcher
 
+php value object
+https://phpprofi.ru/blogs/post/58
+
 Фреймворк Симфони, там все есть, что нужно знать разработчику.
 
 nano, vim
