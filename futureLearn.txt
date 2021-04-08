@@ -18,6 +18,7 @@
 16. CompilerPass
 17. Шаблон Mediator
 18. Symfony EventDispatcher
+19. Иммутабельный метод
 
 php value object
 https://phpprofi.ru/blogs/post/58
